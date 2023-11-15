@@ -9,6 +9,7 @@ public class AppUDP1{
             DatagramSocket socket = new DatagramSocket(3000);
             System.out.println("[Ok]");
 
+
             String msg = "Oi";
 
             byte[] msg_buf = msg.getBytes();
